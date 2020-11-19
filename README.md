@@ -2,6 +2,9 @@
 
 A [Giter8](https://github.com/foundweekends/giter8) template for Spark SBT applications.
 
+This is a fork of [MrPower's spark-sbt](https://github.com/MrPowers/spark-sbt.g8) and I temporally update Spark and Scala version.
+I also added [holdenk's spark-testing-base](https://github.com/holdenk/spark-testing-base) for ease of testing.
+
 ## Usage
 
 1. Install SBT with Homebrew: `brew install sbt`
