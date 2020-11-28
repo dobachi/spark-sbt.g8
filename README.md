@@ -9,7 +9,7 @@ I also added [holdenk's spark-testing-base](https://github.com/holdenk/spark-tes
 
 1. Install SBT with Homebrew: `brew install sbt`
 
-2. Start the app generation wizard: `sbt new MrPowers/spark-sbt.g8`
+2. Start the app generation wizard: `sbt new dobachi/spark-sbt.g8`
 
 3. Fill out the project properties on the command line
 
@@ -33,11 +33,13 @@ The top-level package of the project.  This is typically the organization name f
 
 For example, the [top level package of spark-daria](https://github.com/MrPowers/spark-daria/blob/master/src/main/scala/com/github/mrpowers/spark/daria/sql/ColumnExt.scala#L1) is `com.github.mrpowers.spark.daria`, which consists of the organization name `com.github.mrpowers` and the project name `spark.daria`.
 
-**scalaVersion (default: 2.11.12)**
+**scalaVersion (default: 2.12.10)**
 
-**sparkVersion (default: 2.4.7)**
+**sparkVersion (default: 3.0.1)**
 
 **sbtVersion (default: 1.3.13)**
+
+**sparkTestingbaseRelease (default: 1.0.0)**
 
 **version (default: 0.0.1)**
 
